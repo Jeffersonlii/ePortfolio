@@ -1,0 +1,66 @@
+
+#head{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-family:monospace; 
+    border-left: 10px darkred solid;
+
+} 
+
+body{
+    background-color:grey;
+    color: white
+}
+
+a:link {color: white;}     
+a:visited {color: white;}   
+a:hover {color: white;}    
+a:active {color: white;}
+
+a{
+text-decoration: none;
+}
+
+footer{
+            position:fixed;
+            bottom:0;
+            width: 99%;
+            height:50px;  
+            padding: 30px 0px;
+    background-color: #333
+}
+
+.about{
+    background-color: #333;
+    color: white;
+    padding: 13px;
+    float: left;
+    width: 77%;
+}
+
+#nav{
+    color: white;
+    background-color: #333;}
+#nav ul{
+    padding: 10px;
+    list-style: none;
+    word-spacing: 15px;
+    text-align: center;
+}
+#nav li{
+    display: inline;
+    }
+#nav a{
+     color: white;
+    text-decoration: none;
+}
+
+#pic {
+    float: right;
+    width: 15.8%;
+    background: #333;
+    padding: 20px; 
+}
+

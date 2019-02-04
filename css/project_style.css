@@ -1,0 +1,11 @@
+#projects{
+    background-color: #333;
+}
+
+#projectPics{
+    float:none;
+    width: 10%;
+    height:10%;
+    background-color: #333;
+    padding: 20px;
+}
