@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*@import url('https://fonts.googleapis.com/css?family=Titillium+Web');*/
 #head{
     text-align: center;
     background-color: #333;
@@ -16,7 +16,7 @@
 body{
     background-color:grey;
     color: white;
-    font-family: 'Titillium Web', sans-serif;
+ /* font-family: 'Titillium Web', sans-serif; */
 }
 
 a:link {color: white;}     
