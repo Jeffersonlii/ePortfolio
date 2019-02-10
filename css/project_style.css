@@ -1,11 +1,15 @@
 #projects{
-    background-color: #333;
+    background-color: white;
+    opacity: 0.75;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
 }
 
 #projectPics{
     float:none;
     width: 10%;
     height:10%;
-    background-color: #333;
+    background-color:white;
     padding: 20px;
+
 }

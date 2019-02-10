@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-#head{
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    font-family:monospace; 
-    border-left: 10px darkred solid;
+:root {
+  --blockcolour: snow ;
+  --textcolour:black;
 
 }
-
+h1{
+ color: white;
+ margin-left: 3.5%;
+}
+html {
+  overflow-y: scroll;
+}
+#head{
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 150%; 
+    width: 40%;
+}
 
 body{
-    background-color:grey;
-    color: white;
+    background-image: url('Background.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-blend-mode: screen;
+    color: var(--textcolour);
     font-family: 'Titillium Web', sans-serif; 
 }
 
@@ -22,39 +36,45 @@ a:hover {color: white;}
 a:active {color: white;}
 
 a{
-text-decoration: none;
+    text-decoration: none;
 }
 
 footer nav ul{
+    padding: 0px;
     position:fixed;
-
-    margin-left:30% ;
+    color: white;
     bottom:0;
-    width: 40%;
-    height:50px;  
-    padding:2px 0px;
-    background-color: #333;
+    width: 23%;
+    height:50px;
     text-align: center;
     word-spacing: 15px;
-
+    border: 1px white solid;
+    margin-left: 38%;
 }
 footer li{
+    color: white;
     display: inline;
+
 }
 
 .about{
-    background-color: #333;
-    color: white;
+    background-color:  var(--blockcolour);
+    color: var(--textcolour);
     padding: 13px;
     float: left;
-    width: 77%;
+    width: 40%;
+    opacity: 0.75;
+    margin-left:3.5%;
 }
 
 #nav{
     color: white;
-    background-color: #333;}
+    width: 15%;
+    border: 1px white solid;
+    margin-left:2%; 
+    }
 #nav ul{
-    padding: 10px;
+    padding:0px ;
     list-style: none;
     word-spacing: 15px;
     text-align: center;
@@ -63,14 +83,15 @@ footer li{
     display: inline;
     }
 #nav a{
-     color: white;
+    color: white;
     text-decoration: none;
 }
 
 #pic {
     float: right;
     width: 15.8%;
-    background: #333;
+    background:  var(--blockcolour);
     padding: 20px; 
+    margin-right: 2%;
 }
 
