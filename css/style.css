@@ -90,8 +90,8 @@ footer li{
 #pic {
     float: right;
     width: 15.8%;
-    background:  var(--blockcolour);
-    padding: 20px; 
+    border: 1px white solid;
+    padding: 10px; 
     margin-right: 2%;
 }
 

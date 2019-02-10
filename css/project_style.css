@@ -9,7 +9,7 @@
     float:none;
     width: 10%;
     height:10%;
-    background-color:white;
+    border: 1px white solid;
     padding: 20px;
 
 }
