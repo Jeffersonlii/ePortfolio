@@ -38,35 +38,6 @@ a:active {color: white;}
 a{
     text-decoration: none;
 }
-
-footer nav ul{
-    padding: 0px;
-    position:fixed;
-    color: white;
-    bottom:0;
-    width: 23%;
-    height:50px;
-    text-align: center;
-    word-spacing: 15px;
-    border: 1px white solid;
-    margin-left: 38%;
-}
-footer li{
-    color: white;
-    display: inline;
-
-}
-
-.about{
-    background-color:  var(--blockcolour);
-    color: var(--textcolour);
-    padding: 13px;
-    float: left;
-    width: 40%;
-    opacity: 0.75;
-    margin-left:3.5%;
-}
-
 #nav{
     color: white;
     width: 15%;
@@ -87,6 +58,17 @@ footer li{
     text-decoration: none;
 }
 
+
+.about{
+    background-color: rgba(255, 255, 255,0.85);
+    color: var(--textcolour);
+    padding: 13px;
+    float: left;
+    width: 40%;
+    margin-left:3.5%;
+}
+
+
 #pic {
     float: right;
     width: 15.8%;
@@ -94,4 +76,32 @@ footer li{
     padding: 10px; 
     margin-right: 2%;
 }
+
+#langs{
+    float:left;
+    width: 20%;
+    height 10%;
+    margin-left:3.5%;
+
+}
+
+footer nav ul{
+    padding: 1%;
+    position:fixed;
+    color: white;
+    bottom:0;
+    width: 23%;
+    height:5%;
+    text-align: center;
+    word-spacing: 15px;
+    border: 1px white solid;
+    margin-left: 38%;
+}
+footer li{
+    color: white;
+    display: inline;
+
+}
+
+
 
