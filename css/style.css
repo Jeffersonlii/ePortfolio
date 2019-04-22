@@ -20,7 +20,7 @@ html {
 }
 
 body{
-    background-image: url('Background.jpg');
+    background-image: url("../pics/Background2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ a{
 #langs{
     float:left;
     width: 20%;
-    height 10%;
+    height: 10%;
     margin-left:3.5%;
 
 }
