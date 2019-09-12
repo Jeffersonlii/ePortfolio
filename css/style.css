@@ -40,14 +40,14 @@ a{
 }
 #nav{
     color: white;
-    width: 17%;
+    width: 23%;
     margin-left:3.5%; 
     }
 #nav ul{
-    padding:10px ;
+    padding:10px;
     list-style: none;
     word-spacing: 15px;
-    text-align: center;
+    text-align: left;
     border-left: 5px solid white;
 }
 #nav li{
@@ -68,6 +68,10 @@ a{
     margin-left:3.5%;
 }
 
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+}
 .skills{
  background-color: rgba(255, 255, 255,0.85);
     color: var(--textcolour);
@@ -118,8 +122,9 @@ footer li{
 
 /*mobile*/
 @media only screen and (max-device-width: 500px) {
-.about {
+.about,.skills {
 width:86%;
+padding-right: 0%;
 }
 #pic {
   display: block;
@@ -148,24 +153,18 @@ footer nav ul{
     border-right: 5px solid white;
 
     top:0;
+    margin-top: 180px;
     padding:10px ;
     list-style: none;
     word-spacing: 15px;
     text-align: center;
-    
-    
 }
 footer li{
     color: white;
 
 }    
-    
 
-    
+
+
 
 }
-
-
-
-
-
